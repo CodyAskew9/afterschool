@@ -8,14 +8,14 @@ const CARD_OPTIONS = {
   iconStyle: "solid",
   style: {
     base:{
-      iconColor: "#c4f0ff",
+      iconColor: "#c4f",
       color: "black",
       fontWeight: 500,
       fontFamily: "Roboto, Open Sans, Segoe UI, sans-serif",
       fontSize: "16px",
       fontSmoothing: "antialiased",
       ":-webkit-autofill": {color:"#fce883"},
-      "::placeholder": {color: "white"},
+      "::placeholder": {color: "black"},
       invalid: {
         iconColor: "#ffc7ee",
         color: "#ffc7ee"
