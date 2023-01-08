@@ -4,7 +4,13 @@ import { Card } from 'react-bootstrap';
 import cody from './images/cody.jpg'
 import leihzel from './images/leihzel.jpg'
 import flyer from './images/flyer.jpg'
+import {Elements} from '@stripe/react-stripe-js';
+import {loadStripe} from '@stripe/stripe-js';
+import SignUpForm from './signUpForm';
+
+
 function App() {
+ 
   return (
     <>
     <div className='top'>
@@ -26,7 +32,7 @@ function App() {
         <Card style={{ width: '18rem' }}>
       <Card.Img style={{width: '18rem'}} variant="top" src={leihzel} />
       <Card.Body>
-        <Card.Title>Ms. Leihzel</Card.Title>
+        <Card.Title>Leihzel Baybayan</Card.Title>
         <Card.Text>
           Ms. Leihzel is a third grade teacher at Altura Prep with 9 years of teaching experience!
         </Card.Text>
@@ -42,6 +48,7 @@ function App() {
       </Card.Body>
     </Card>
     </div>
+    
     </>
   );
 }

@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-evenly;
   background-color: #b2b1cf;
+  font-weight: bold;
 }
 
 .flyer{
