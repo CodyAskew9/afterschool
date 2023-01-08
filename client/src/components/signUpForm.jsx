@@ -73,6 +73,7 @@ export default function SignUpForm() {
         </fieldset>
        </Form.Group>
       <Button className='btn'>Pay</Button>
+      <h4>Payment is secured by Stripe</h4>
     </Form>
     :
     <div>
