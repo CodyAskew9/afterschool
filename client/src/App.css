@@ -12,11 +12,9 @@
   align-items: center;
   justify-content: center;
 }
-.info{
-  font-weight: bold;
-  
-}
+
 .top{background-color: #98D2EB;
+  font-weight: bold;
 }
 .border{
   display: flex;
