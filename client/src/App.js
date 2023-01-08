@@ -16,11 +16,12 @@ function App() {
         <p> Cash, check, or money order payments will be accepted upon parent pickup on your child's first day of the program. Paypal or credit card payments can be made at the bottom of the page. 
         Please be sure to include your child's name with your payment. If paying by check or money order, please make it out to Cody Askew. 
       </p>
-
     </div>
-    </div>
-      <h2> Meet The Teachers!
+    <div className='border'>
+      <h2> Meet The Teachers!  
       </h2>
+    </div>
+    </div>
     <div className='teachers'>
         <Card style={{ width: '18rem' }}>
       <Card.Img style={{width: '18rem'}} variant="top" src={leihzel} />
