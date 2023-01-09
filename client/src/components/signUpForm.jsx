@@ -51,7 +51,7 @@ export default function SignUpForm() {
          setSuccess(true) 
         }
       } catch (error) {
-        console.log("errer".error)
+        console.log("error".error)
       }
     }else{
       console.log(error.message)
