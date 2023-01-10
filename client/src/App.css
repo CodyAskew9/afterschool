@@ -23,3 +23,8 @@
   background-image: linear-gradient(#98D2EB, #b2b1cf);
   margin: 0;
 }
+.bottom{
+  display: flex;
+  justify-content: center;
+  background-color: #b2b1cf;
+}

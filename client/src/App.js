@@ -22,7 +22,7 @@ function App() {
         Students are invited to bring an afternoon snack.
         </Row>
         <Row>
-          Cash, check, or money order payments will be accepted upon parent pickup on your child's first day of the program. Credit card payments coming soon! 
+          Cash, check, or money order payments will be accepted upon parent pickup on your child's first day of the program. Credit card payments are available through the link at the bottom of the page!
         Please be sure to include your child's name with your payment. If paying by check or money order, please make it out to Cody Askew. 
           </Row> 
     <div className='border'>
@@ -60,6 +60,21 @@ function App() {
     </div>
       </Container>
     {/* <StripeContainer/> */}
+    <div className='bottom'>
+
+    <Container fluid>
+        <Row>
+          <Col>
+    <Card style={{ width: '18rem', height:'25vh', textAlign: 'center', alignItems: 'center', fontWeight: 'bold', fontSize: '2rem' }}>
+      <Card.Body>
+        <Card.Title>Credit Card Payments Here!!!!</Card.Title>
+        <Card.Link href="https://buy.stripe.com/bIY5mz5cO3w5gEMcMM">secure payment</Card.Link>
+      </Card.Body>
+    </Card>
+    </ Col>
+    </Row>
+    </ Container>
+    </div>
     </>
   );
 }
