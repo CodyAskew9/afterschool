@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 const  NavBar = () => {
   return (
     <>
-     <Navbar bg="primary" variant="dark">
+     <Navbar sticky='top' bg="primary" variant="dark">
         <Container>
           <Navbar.Brand as={Link} to='/'>Coding Club</Navbar.Brand>
           <Nav className="me-auto">
