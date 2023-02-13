@@ -25,10 +25,15 @@ const FirstAndSecond = () => {
       </p>
 
       <Row>
-        <h2>First Month</h2>
+        <h2>First Month Finished!</h2>
         <p>
           As we reached the end of our first month, we have seen great improvement with our typing skills.
           We learned about internet safety and digital trails. We also learned about sequencing a fundamental part of computer science.
+        </p>
+        <h2>Whats Next</h2>
+        <p>
+          We are still working hard to learn our school login information, as well as work on our typing.
+          This month will be all about learning computer science skills such as loops and conditional statements. These are skills that every computer programmer must have.
         </p>
       </Row>
 
