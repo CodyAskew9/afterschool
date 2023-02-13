@@ -1,6 +1,11 @@
 import React from 'react'
 import './FirstAndSecond.css'
-import { Container, Row } from 'react-bootstrap'
+import typing from './images/typing.jpg'
+import ella from './images/ella.jpg'
+import scratch from './images/scratch.jpg'
+import baseball from './images/baseball.jpg'
+import badge from './images/badge.jpg'
+import { Container, Row, Image } from 'react-bootstrap'
 const FirstAndSecond = () => {
   return (
     <>
@@ -20,17 +25,19 @@ const FirstAndSecond = () => {
       <br />
       At this time we do not have accounts set up yet for all of our students due to an internet outage right at the end of class. 
       <br />
-      <br />
-      Pictures to come
       </p>
-
+      <Image fluid src={typing} style={{width: '18rem'}}/>
+      <Image fluid src={ella} style={{width: '18rem'}}/>
+      <Image fluid src={baseball} style={{width: '18rem'}}/>
+      <Image fluid src={scratch} style={{width: '18rem'}}/>
+      <Image fluid src={badge} style={{width: '18rem'}}/>
       <Row>
         <h2>First Month Finished!</h2>
         <p>
           As we reached the end of our first month, we have seen great improvement with our typing skills.
-          We learned about internet safety and digital trails. We also learned about sequencing a fundamental part of computer science.
+          We learned about internet safety and digital trails. We also learned about sequencing, a fundamental part of computer science.
         </p>
-        <h2>Whats Next</h2>
+        <h2>What's Next</h2>
         <p>
           We are still working hard to learn our school login information, as well as work on our typing.
           This month will be all about learning computer science skills such as loops and conditional statements. These are skills that every computer programmer must have.

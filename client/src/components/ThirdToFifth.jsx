@@ -23,13 +23,13 @@ const ThirdToFifth = () => {
         <p>
           As we finish our first month we have greatly improved our typing skills.
           We have learned the basic structure of HTML and websites, we are starting to learn how to style them wit CSS and make them more than just words on a page!
-          We Learned about sequencing a core skill for computer science as well as learning about loops, and conditional statements these are skill that can transfer into any coding language.
+          We Learned about sequencing a core skills for computer science as well as learning about loops and conditional statements these are skills that can transfer into any coding language.
         </p>
         <h2>
           What's Next
         </h2>
          <p>
-           As we move into the next month we will continue our practice of building websites as well as work on our problem solving skill by working in pairs where one person is the driver and will make code for the program while the other tells them what the program should do.
+           As we move into the next month we will continue our practice of building websites as well as work on our problem solving skills by working in pairs where one person is the driver and will make code for the program while the other tells them what the program should do.
           </p>
     </Container>
     </>
