@@ -1,13 +1,17 @@
 import React from 'react'
 import './FirstAndSecond.css'
+import { Container, Row } from 'react-bootstrap'
 const FirstAndSecond = () => {
   return (
-    <div className='first'>
+    <>
+    <Container fluid className='first'>
+
+      <Row>
+
+
      <h1>First and Second Grade</h1>
-     <div className='WhatWeLearn'>
       <h2>What We Are Working On</h2>
-      </div>
-      <div className='Work'>
+      <Row className='Work'>
       <p> With our younger class, our primary focus is classroom technology and basic computer skills.
         We are working on typing practice at the start of every class with <a href="https://www.typing.com/">Typing.com.</a>
         <br />
@@ -19,9 +23,19 @@ const FirstAndSecond = () => {
       <br />
       Pictures to come
       </p>
-     </div>
 
-    </div>
+      <Row>
+        <h2>First Month</h2>
+        <p>
+          As we reached the end of our first month, we have seen great improvement with our typing skills.
+          We learned about internet safety and digital trails. We also learned about sequencing a fundamental part of computer science.
+        </p>
+      </Row>
+
+      </Row>
+      </Row>
+  </Container>
+    </>
   )
 }
 

@@ -1,20 +1,6 @@
 .first{
     background-color: #b2b1cf;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     height: 100vh;
-}
-.WhatWeLearn{
-    display: flex;
-    text-align: center;
-    justify-content: center;
     font-size: large;
-}
-.Work{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: bold;
-    font-size: 2rem;
 }
