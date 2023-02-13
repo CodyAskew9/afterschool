@@ -1,6 +1,12 @@
 import React from 'react'
 import './Third.css'
-import { Container,Row } from 'react-bootstrap'
+import trouble from './images/trouble.jpg'
+import best from './images/best.jpg'
+import late from './images/late.jpg'
+import talent from './images/talent.jpg'
+import classes from './images/classes.jpg'
+
+import { Container,Row, Image } from 'react-bootstrap'
 const ThirdToFifth = () => {
   return (
     <>
@@ -14,8 +20,12 @@ const ThirdToFifth = () => {
       Due to an unforeseen internet issue we were unable to finish account setup this last week but will have it working this upcoming week.
       <br />
       <br/>
-      Pictures to come!
        </p>
+       <Image fluid src={trouble} style={{width: '18rem'}}/>
+       <Image fluid src={best} style={{width: '18rem'}}/>
+       <Image fluid src={classes} style={{width: '18rem'}}/>
+       <Image fluid src={late} style={{width: '18rem'}}/>
+       <Image fluid src={talent} style={{width: '18rem'}}/>
       </Row>
         <h2>
           First Month Finished
